@@ -13,24 +13,25 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  min-height: 900px;
+  min-height: 1000px;
   font-family: Hack, monospace;
+
 }
 
 .logo {
 	font-size: 10px;
 	color:rgb(66,76,71);
 	text-transform: uppercase;
-	line-height: 1.2;
+	line-height: 1.0;
 }
 
 .container1 {
-	width: 1000px;
+	width: 1009px;
     max-width: 100%;
     margin: 0 auto;
     background: #40E0D0;
     border: 5px solid darkblue;
-	font-family: inherit;"
+	font-family: inherit;
 }
 
 header .container {
@@ -179,10 +180,10 @@ html,body {
     height: 100%;
 }
 body {
-    background: #0f3854;
-    background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 70%);
     background-size: 100%;
     background-image: url("../img/back.jpg");
+    
+    background-size: cover;
   color: #191970;
 
 
@@ -205,5 +206,33 @@ p {
     margin: 0 auto;
     background: #40E0D0;
     border: 5px solid darkblue;
-  font-family: inherit;"
+  font-family: inherit;
+  text-align: center;
+}
+
+.news2 {
+  width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    background: #40E0D0;
+    border: 5px solid darkblue;
+  font-family: inherit;
+  text-align: center;
+
+}
+
+.news3 {
+  width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    background: #40E0D0;
+    border: 5px solid darkblue;
+  font-family: inherit;
+  text-align: center;
+
+}
+
+.center-img {
+  display: block;
+  margin: 0 auto;
 }
