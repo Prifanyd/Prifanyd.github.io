@@ -183,6 +183,9 @@ body {
     background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 70%);
     background-size: 100%;
     background-image: url("../img/Defender.jpg");
+    background-repeat:no-repeat;
+  background-attachment:fixed;
+  background:size:cover;
   color: #191970;
 
 

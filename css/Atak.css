@@ -182,8 +182,9 @@ html,body {
 body {
     background-size: 100%;
     background-image: url("../img/back.jpg");
-    
-    background-size: cover;
+    background-repeat:no-repeat;
+  background-attachment:fixed;
+  background:size:cover;
   color: #191970;
 
 

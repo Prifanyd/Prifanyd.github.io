@@ -1,3 +1,5 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
 * {
 	box-sizing: border-box;
 }
@@ -183,6 +185,9 @@ body {
     background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 70%);
     background-size: 100%;
     background-image: url("../img/Contact.jpg");
+    background-repeat:no-repeat;
+  background-attachment:fixed;
+  background:size:cover;
   color: #191970;
 
 
@@ -206,4 +211,68 @@ p {
     background: #40E0D0;
     border: 5px solid darkblue;
   font-family: inherit;"
+}
+
+.nesolestag-enadenud {
+  width: 615px;
+  margin: 0 auto;
+}
+
+.kesednsoled:after,
+.kesednsoled:before {
+  content: ".";
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+  clear: both;
+}
+.ico-wrap {
+  color: #a612d4;
+  width: 48px;
+  height: 48px;
+  margin: 30px 18px 5px 5px;
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  border: 2px solid #9d1cb7;
+  float: left;
+  border-radius: 30px;
+}
+.ico-contact {
+  line-height: 1.9 !important;
+}
+.meanous-andscoev {
+  float: left;
+  margin-bottom: 20px;
+}
+.aio-icon-title {
+  font-size: 16px;
+  color: #950c96;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 767px) {
+  .meanous-andscoev,
+  .ico-wrap {
+  float: none;
+  text-align: center;
+  }
+  .ico-wrap {
+  margin: 0 auto 15px auto;
+  }
+}
+
+.wrapper {
+  width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    background: #40E0D0;
+    border: 5px solid darkblue;
+  font-family: inherit;
+  text-align: center;
 }
