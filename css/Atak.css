@@ -233,6 +233,27 @@ p {
 
 }
 
+.news4 {
+  width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    background: #40E0D0;
+    border: 5px solid darkblue;
+  font-family: inherit;
+  text-align: center;
+
+}
+.news5 {
+  width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    background: #40E0D0;
+    border: 5px solid darkblue;
+  font-family: inherit;
+  text-align: center;
+
+}
+
 .center-img {
   display: block;
   margin: 0 auto;
