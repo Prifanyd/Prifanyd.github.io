@@ -193,14 +193,11 @@ body {
 p {
     margin: 0;
     padding: 0;
+
+font-size: 20px
 }
 
-}
 
-.mb-5 {
-    margin-bottom: 3rem !important;
-    
-}
 
 .news {
   width: 1000px;
@@ -208,5 +205,34 @@ p {
     margin: 0 auto;
     background: #40E0D0;
     border: 5px solid darkblue;
-  font-family: inherit;"
+  font-family: inherit;
+  text-align: center;
+}
+.news2 {
+  width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    background: #40E0D0;
+    border: 5px solid darkblue;
+  font-family: inherit;
+  text-align: center;
+}
+.news3 {
+  width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    background: #40E0D0;
+    border: 5px solid darkblue;
+  font-family: inherit;
+  text-align: center;
+}
+
+.news4 {
+  width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    background: #40E0D0;
+    border: 5px solid darkblue;
+  font-family: inherit;
+  text-align: center;
 }
