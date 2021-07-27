@@ -175,7 +175,7 @@ function Update()
 
 	if(player.dead)
 	{
-		alert("Crash!");
+		alert("Проиграл!");
 		Stop();
 	}
 
@@ -204,7 +204,7 @@ function Update()
 
 		if(hit)
 		{
-			alert("Crash!");
+			alert("Проиграл !");
 			Stop();
 			player.dead = true;
 			break;
