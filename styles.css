@@ -1,0 +1,313 @@
+* {
+	box-sizing: border-box;
+}
+
+<link rel="stylesheet" media="screen and (orientation: portrait) and 
+(max-width:640px), projection" "href=»style.css" />
+
+
+body {
+	margin: 0;
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-height: 900px;
+  font-family: Hack, monospace;
+}
+
+.logo {
+	font-size: 10px;
+	color:rgb(66,76,71);
+	text-transform: uppercase;
+	line-height: 1.2;
+  
+}
+
+.container1 {
+	width: 999px;
+    max-width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    background: #40E0D0;
+    border: 5px solid darkblue;
+	font-family: inherit;
+}
+
+.container2 {
+    position: relative;
+  width: 999px;
+    max-width: 100%;
+    margin: 0 auto;
+    background: #40E0D0;
+    border: 5px solid darkblue;
+  font-family: inherit;
+}
+
+.container {
+  width: 999px;
+    height: 69px;
+    margin: 0 auto;
+    background: #40E0D0;
+    border: 5px solid darkblue;
+  font-family: inherit;
+}
+
+header .container {
+	display: flex;
+	justify-content: space-around;
+	font-family: "TimesNewRomanPS";
+}
+
+nav li {
+	display: inline;
+	margin: 0 22px;
+	font-size: 19px;
+	font-family: "sf-pro";
+	color: rgba(103, 111, 107, 0.949);
+	line-height: 1.714;
+}
+
+nav li {
+	color: inherit;
+	text-decoration: unset;
+}
+
+a { text-decoration:none; }
+
+
+
+nav
+{
+  background: #000000;
+    color: #fff;
+    font-family:'Helvetica Neue', sans-serif;
+    border: 5px solid darkblue;
+   
+    
+    
+    right: 0;
+    left: 0;
+    width: 500px;
+    display: table;
+    margin: 0 auto;
+    transform: translateY(-50%);
+}
+
+nav a
+{
+    position: relative;
+    width: 14,28%;
+    display: table-cell;
+    text-align: center;
+    color: #949494;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: 0.2s ease color;
+}
+
+nav a:before, nav a:after
+{
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 0.2s ease transform;
+}
+
+nav a:before
+{
+    top: 0;
+    left: 10px;
+    width: 6px;
+    height: 6px;
+}
+
+nav a:after
+{
+    top: 5px;
+    left: 18px;
+    width: 4px;
+    height: 4px
+}
+
+nav a:nth-child(1):before
+{
+    background-color: yellow;
+}
+
+nav a:nth-child(1):after
+{
+    background-color: red;
+}
+
+nav a:nth-child(2):before
+{
+    background-color: #00e2ff;
+}
+
+nav a:nth-child(2):after
+{
+    background-color: #89ff00;
+}
+
+nav a:nth-child(3):before
+{
+    background-color: #00FFFF;
+}
+
+nav a:nth-child(3):after
+{
+    background-color: palevioletred;
+}
+nav a:nth-child(4):before
+{
+    background-color: purple;
+}
+
+nav a:nth-child(4):after
+{
+    background-color: palevioletred;
+}
+nav a:nth-child(5):before
+{
+    background-color: #E9967A;
+}
+
+nav a:nth-child(5):after
+{
+    background-color: palevioletred;
+}
+nav a:nth-child(6):before
+{
+    background-color: #8B0000;
+}
+
+nav a:nth-child(6):after
+{
+    background-color: #8B0000;
+}
+nav a:nth-child(7):before
+{
+    background-color: purple;
+}
+
+nav a:nth-child(7):after
+{
+    background-color: palevioletred;
+}
+#indicator
+{
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: 0.2s ease left;
+}
+
+nav a:hover
+{
+    color: #fff;
+}
+
+nav a:hover:before, nav a:hover:after
+{
+    transform: scale(1);
+}
+
+nav a:nth-child(1):hover ~ #indicator
+{
+    background: linear-gradient(130deg, yellow, red);
+}
+
+nav a:nth-child(2):hover ~ #indicator
+{
+    left: 19%;
+    background: linear-gradient(130deg, #00e2ff, #89ff00);
+}
+
+nav a:nth-child(3):hover ~ #indicator
+{
+    left: 34%;
+    background: linear-gradient(130deg, #00FFFF, palevioletred);
+}
+nav a:nth-child(4):hover ~ #indicator
+{
+    left: 47%;
+    background: linear-gradient(130deg, purple, palevioletred);
+}
+nav a:nth-child(5):hover ~ #indicator
+{
+    left: 60%;
+    background: linear-gradient(130deg, #E9967A, palevioletred);
+}
+nav a:nth-child(6):hover ~ #indicator
+{
+    left: 75%;
+    background: linear-gradient(130deg, #8B0000, #8B0000);
+}
+nav a:nth-child(7):hover ~ #indicator
+{
+    left: 90%;
+    background: linear-gradient(130deg, purple, palevioletred);
+}
+#ytd-url {
+  display: block;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding: 10px 14px;
+  margin: 20px;
+  color: #fff;
+  font-family: Arial;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: #000;
+  border-radius: 4px;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.3);
+  z-index: 125;
+}
+
+
+
+html,body {
+    height: 100%;
+}
+body {
+    background: #0f3854;
+    background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 70%);
+    background-size: 100%;
+    
+  color: #191970;
+
+
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+
+}
+
+.banner {
+	border: 5px solid darkblue;
+	font-family: inherit;"
+}
+
+.news {
+  width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    background: #40E0D0;
+    border: 5px solid darkblue;
+  font-family: inherit;
+  text-align: center;
+
+}
+
