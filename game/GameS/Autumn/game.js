@@ -126,7 +126,7 @@ Resize(); //Changing the canvas size on startup
 window.addEventListener("resize", Resize); //Change the canvas size with the window size
 
 //Forbidding openning the context menu to make the game play better on mobile devices
-
+canvas.addEventListener("contextmenu", function (e) { e.preventDefault(); return false; }); 
 
 window.addEventListener("keydown", function (e) { KeyDown(e); }); //Listenning for keyboard events
 
@@ -260,6 +260,7 @@ function DrawCar(car)
 
 function KeyDown(e)
 {
+			 
 	switch(e.keyCode)
 	{
 		case 37: //Left
